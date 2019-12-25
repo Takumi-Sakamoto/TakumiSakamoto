@@ -1,0 +1,72 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: black;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #e91e63;
+}
+
+.nav-wrapper{
+  padding-left:15%;
+  padding-right:5%;
+}
+
+body{
+  background:#eceff1;
+  width :100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.contents{
+  background: white;
+  padding-top:20px;
+  padding-bottom:80px;
+}
+
+.row{
+  padding-left:20%;
+  padding-right:20%;
+}
+
+.material-icons{
+  color: #e91e63;
+}
+
+/*yohaku taisaku*/
+.wrap {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+	overflow: hidden;
+}
+
+footer{
+  margin-top:auto;
+}
+
+footer .row{
+  text-align: left;
+}
+
+.divider{
+  color:black;
+}
