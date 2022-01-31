@@ -1,16 +1,12 @@
-# Markdown
+# About Me
 
-This is my page.
+大阪大学基礎工学研究科システム創成専攻、原田研究室の坂本匠です。 ロボットアームの動作計画に関する研究を行っております。
 
 
 ## Markdown
 
-bar
+[Research](./research.html).
 
-bar
+[Private](./private.html).
 
-bar
-
-bar
-
-from: https://www.google.com/
+[Another Links](./links.html).
