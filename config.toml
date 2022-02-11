@@ -1,0 +1,28 @@
+baseURL = 'https://Takumi-Sakamoto.github.io/webpage/'
+languageCode = "jp"
+DefaultContentLanguage = "jp"
+title = 'Takumi Sakamoto'
+canonifyurls = true
+publishDir = "docs"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+  [[menu.main]]
+    name = "Home"
+    identifier = "home"
+    weight = 100
+    url = "/webpage"
+
+  [[menu.main]]
+    name = "Posts"
+    weight = 200
+    identifier = "posts"
+    url = "/webpage/posts/"
+
+  [[menu.main]]
+    name = "Profile"
+    weight = 300
+    identifier = "profile"
+    url = "/webpage/Profile/"
