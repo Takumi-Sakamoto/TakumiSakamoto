@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Takumi Sakamoto</title>
-    <link>https://Takumi-Sakamoto.github.io/webpage/</link>
-    <description>Recent content on Takumi Sakamoto</description>
+    <title>Posts on Takumi Sakamoto</title>
+    <link>https://Takumi-Sakamoto.github.io/webpage/posts/</link>
+    <description>Recent content in Posts on Takumi Sakamoto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sat, 12 Feb 2022 03:34:09 +0900</lastBuildDate><atom:link href="https://Takumi-Sakamoto.github.io/webpage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Feb 2022 03:34:09 +0900</lastBuildDate><atom:link href="https://Takumi-Sakamoto.github.io/webpage/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WSL&#43;ROS</title>
       <link>https://Takumi-Sakamoto.github.io/webpage/posts/wslros/</link>
@@ -23,15 +23,6 @@
       
       <guid>https://Takumi-Sakamoto.github.io/webpage/posts/hugo/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Profile</title>
-      <link>https://Takumi-Sakamoto.github.io/webpage/profile/</link>
-      <pubDate>Sat, 12 Feb 2022 02:50:02 +0900</pubDate>
-      
-      <guid>https://Takumi-Sakamoto.github.io/webpage/profile/</guid>
-      <description>経歴  2015.4 大阪大学基礎工学部システム科学科に入学 2018.4 原田研究室に配属 2019.3 大阪大学基礎工学部システム科学科を卒業 2019.4 大阪大学大学院基礎工学研究科システム創成専攻博士前期課程に入学 2021.</description>
     </item>
     
   </channel>
