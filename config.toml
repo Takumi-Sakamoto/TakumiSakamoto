@@ -9,6 +9,12 @@ summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
 
+[params]
+title = "Stacks"
+author = "Takumi Sakamoto"
+description = "Blogs about robotics and software"
+profilePicture = "images/biwako.jpg"
+
   [[menu.main]]
     name = "Home"
     identifier = "home"
