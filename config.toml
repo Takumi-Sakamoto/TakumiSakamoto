@@ -10,7 +10,7 @@ enableEmoji = true
 enableRobotsTXT = true
 
 [params]
-title = "Stacks"
+title = "Learning Stacks"
 author = "Takumi Sakamoto"
 description = "Blogs about robotics and software"
 profilePicture = "images/biwako.jpg"
