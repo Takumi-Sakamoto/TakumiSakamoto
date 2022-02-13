@@ -1,3 +1,1 @@
 User-agent: *
-Disallow:
-Sitemap: https://Takumi-Sakamoto.github.io/webpage/sitemap.xml
