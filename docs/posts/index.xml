@@ -6,24 +6,27 @@
     <description>Recent content in Posts on Takumi Sakamoto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sat, 12 Feb 2022 03:34:09 +0900</lastBuildDate><atom:link href="https://Takumi-Sakamoto.github.io/webpage/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 01:30:35 +0900</lastBuildDate><atom:link href="https://Takumi-Sakamoto.github.io/webpage/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>webページを刷新した件</title>
+      <link>https://Takumi-Sakamoto.github.io/webpage/posts/hugo/</link>
+      <pubDate>Mon, 14 Feb 2022 01:30:35 +0900</pubDate>
+      
+      <guid>https://Takumi-Sakamoto.github.io/webpage/posts/hugo/</guid>
+      
+        <description>##　経緯
+仕事外で学んだことをまとめる場所が欲しくなりました。
+qiitaに投稿しても良いのですが、もともと個人のwebサイトを学生時代に作成していたのでできればそちらに情報を積み上げていきたいと思っていました。webページを一新するにしました。
+github Pagesで管理したいかつMarkdown形式で書いていきたいと考えていたところ、静的サイトを自動で生成できるhugoを知り、これを採用することにしました。まだ十分機能を使いこなせてないですが、今のところ非常に使いやすく気に入っています。</description>
+      
+    </item>
+    
     <item>
       <title>WSL&#43;ROS</title>
       <link>https://Takumi-Sakamoto.github.io/webpage/posts/wslros/</link>
       <pubDate>Sat, 12 Feb 2022 03:34:09 +0900</pubDate>
       
       <guid>https://Takumi-Sakamoto.github.io/webpage/posts/wslros/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>webページを刷新した件</title>
-      <link>https://Takumi-Sakamoto.github.io/webpage/posts/hugo/</link>
-      <pubDate>Sat, 12 Feb 2022 03:30:35 +0900</pubDate>
-      
-      <guid>https://Takumi-Sakamoto.github.io/webpage/posts/hugo/</guid>
       
         <description></description>
       
