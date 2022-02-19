@@ -22,7 +22,7 @@ git submodule add [theme repository] themes/[theme name]
 
 ## Create a new contents
 ```
-hugo new content/post/[]/index.md
+hugo new content/post/**/**.md
 ```
 
 ## Compile
