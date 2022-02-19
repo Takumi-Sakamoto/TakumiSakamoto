@@ -8,7 +8,7 @@
     
       Takumi Sakamoto
         |
-        WSL&#43;ROS
+        WSLでGUI機能を使いたい
 
 
       
@@ -89,8 +89,8 @@
 
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="WSL&#43;ROS"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="WSLでGUI機能を使いたい"/>
+<meta name="twitter:description" content="動作環境 Windows11とWindows10の違い Windows10でのGUI導入手順 RvizやGazeboが動かない!  動作環境  Windows10 WSL2 Ubuntu20."/>
 
 
 
@@ -106,12 +106,12 @@
         "@context": "http://schema.org",
         "@type": "BlogPosting",
         "articleSection": "posts",
-        "name": "WSL\u002bROS",
-        "headline": "WSL\u002bROS",
+        "name": "WSLでGUI機能を使いたい",
+        "headline": "WSLでGUI機能を使いたい",
         "alternativeHeadline": "",
         "description": "
       
-        
+        動作環境 Windows11とWindows10の違い Windows10でのGUI導入手順 RvizやGazeboが動かない!  動作環境  Windows10 WSL2 Ubuntu20.
 
 
       
@@ -161,7 +161,7 @@
 
     ,
         "url" : "https:\/\/Takumi-Sakamoto.github.io\/webpage\/posts\/wslros\/",
-        "wordCount" : "0",
+        "wordCount" : "106",
         "genre" : [ ],
         "keywords" : [ ]
     }
@@ -295,9 +295,86 @@
     <div class="post-content">
       
       <div class="post-title">
-        <h1>WSL&#43;ROS</h1>
+        <h1>WSLでGUI機能を使いたい</h1>
         
-      </div></div>
+      </div><ul>
+<li><a href="#%E5%8B%95%E4%BD%9C%E7%92%B0%E5%A2%83">動作環境</a></li>
+<li><a href="#windows11%E3%81%A8windows10%E3%81%AE%E9%81%95%E3%81%84">Windows11とWindows10の違い</a></li>
+<li><a href="#windows10%E3%81%A7%E3%81%AEgui%E5%B0%8E%E5%85%A5%E6%89%8B%E9%A0%86">Windows10でのGUI導入手順</a></li>
+<li><a href="#rviz%E3%82%84gazebo%E3%81%8C%E5%8B%95%E3%81%8B%E3%81%AA%E3%81%84">RvizやGazeboが動かない!</a></li>
+</ul>
+<h1 id="動作環境">動作環境</h1>
+<ul>
+<li>Windows10</li>
+<li>WSL2 Ubuntu20.04 LTS</li>
+</ul>
+<h1 id="windows11とwindows10の違い">Windows11とWindows10の違い</h1>
+<p>Windows11ではWSLgが提供されており、手間なくGUI機能が使用できる。</p>
+<p>参考</p>
+<p><a href="https://docs.microsoft.com/ja-jp/windows/wsl/tutorials/gui-apps">https://docs.microsoft.com/ja-jp/windows/wsl/tutorials/gui-apps</a></p>
+<h1 id="windows10でのgui導入手順">Windows10でのGUI導入手順</h1>
+<ol>
+<li>
+<p>VcXsrvをWindowsにインストールする</p>
+<p><a href="https://sourceforge.net/projects/vcxsrv/">https://sourceforge.net/projects/vcxsrv/</a></p>
+<p>Xlaunchを起動できるようになったら完了</p>
+<p>起動時に Disable Access Controlのチェックをつけること</p>
+</li>
+<li>
+<p>WSLのdisplay設定を行う</p>
+<p>.bashrcに以下を追記</p>
+<pre tabindex="0"><code>export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+</code></pre></li>
+<li>
+<p>xsessionの追記</p>
+<pre tabindex="0"><code> echo xfce4-session &gt; ~/.xsession
+</code></pre></li>
+<li>
+<p>動作確認
+WSLにx11-appsをインストールする</p>
+<pre tabindex="0"><code> sudo apt install x11-apps
+ xeyes
+</code></pre><p>目玉が動くアプリケーションが起動すればOK</p>
+</li>
+<li>
+<p>もしこれで動かなかったら、ファイヤーウォールの設定を変える</p>
+<p><code>6000+ディスプレイ番号</code>のポートを解放しておく(例：0番目のディスプレイを使う場合6000を解放)</p>
+</li>
+</ol>
+<h1 id="rvizやgazeboが動かない">RvizやGazeboが動かない!</h1>
+<p>このままRvizやGazeboを動かしたかったが、libGLのエラーに阻まれた</p>
+<p>rviz</p>
+<pre tabindex="0"><code>libGL error: No matching fbConfigs or visuals found
+libGL error: failed to load driver: swrast
+libGL error: No matching fbConfigs or visuals found
+libGL error: failed to load driver: swrast
+Segmentation fault
+</code></pre><p>gazebo</p>
+<pre tabindex="0"><code>libGL error: No matching fbConfigs or visuals found
+libGL error: failed to load driver: swrast
+</code></pre><p>どうやらXlaunchの起動オプションに<code>-nowgl</code>が必要らしい</p>
+<figure><img src="https://Takumi-Sakamoto.github.io/webpage/images/wslros/nowgl.png" width="50%"/>
+</figure>
+
+<p>参考</p>
+<ul>
+<li>
+<p><a href="https://qiita.com/rkoyama1623/items/de467c6b954a6df638c8">https://qiita.com/rkoyama1623/items/de467c6b954a6df638c8</a></p>
+</li>
+<li>
+<p><a href="https://demura.net/education/lecture/15304.html">https://demura.net/education/lecture/15304.html</a></p>
+</li>
+</ul>
+<p>無事起動できた</p>
+<p>rviz</p>
+<figure><img src="https://Takumi-Sakamoto.github.io/webpage/images/wslros/rviz.png" width="50%"/>
+</figure>
+
+<p>gazebo</p>
+<figure><img src="https://Takumi-Sakamoto.github.io/webpage/images/wslros/gazebo.png" width="50%"/>
+</figure>
+
+</div>
     <div class="post-footer">
       <div class="info">
         
