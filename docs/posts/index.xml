@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Takumi Sakamoto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Mon, 14 Feb 2022 01:30:35 +0900</lastBuildDate><atom:link href="https://Takumi-Sakamoto.github.io/webpage/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Feb 2022 00:37:10 +0900</lastBuildDate><atom:link href="https://Takumi-Sakamoto.github.io/webpage/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>新しいロボットモデルを定義してMoveIt!を使う</title>
+      <link>https://Takumi-Sakamoto.github.io/webpage/posts/gazebo/</link>
+      <pubDate>Sun, 20 Feb 2022 00:37:10 +0900</pubDate>
+      
+      <guid>https://Takumi-Sakamoto.github.io/webpage/posts/gazebo/</guid>
+      
+        <description>リポジトリ https://github.com/Takumi-Sakamoto/cougarbot</description>
+      
+    </item>
+    
     <item>
       <title>webページを刷新した件</title>
       <link>https://Takumi-Sakamoto.github.io/webpage/posts/hugo/</link>

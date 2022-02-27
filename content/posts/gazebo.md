@@ -1,8 +1,8 @@
 ---
-title: "Gazebo + MoveIt!"
+title: "新しいロボットモデルを定義してMoveIt!を使う"
 date: 2022-02-20T00:37:10+09:00
-draft: true
+draft: false
 ---
 
-## マニピュレータのシミュレータで遊ぶ
+## リポジトリ
 https://github.com/Takumi-Sakamoto/cougarbot
