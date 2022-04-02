@@ -3,7 +3,7 @@
 ## Install Hugo
 https://gohugo.io/getting-started/installing/
 
-## Make a web site and Creatw git repository
+## Make a web site and Create git repository
 ```
 hugo new site [repository name]
 ```
