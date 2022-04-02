@@ -6,16 +6,23 @@
     <description>Recent content on Takumi Sakamoto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sun, 20 Feb 2022 00:37:10 +0900</lastBuildDate><atom:link href="https://Takumi-Sakamoto.github.io/webpage/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Apr 2022 00:55:01 +0900</lastBuildDate><atom:link href="https://Takumi-Sakamoto.github.io/webpage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu_setup</title>
+      <link>https://Takumi-Sakamoto.github.io/webpage/posts/ubuntu_setup/</link>
+      <pubDate>Sun, 03 Apr 2022 00:55:01 +0900</pubDate>
+      
+      <guid>https://Takumi-Sakamoto.github.io/webpage/posts/ubuntu_setup/</guid>
+      <description>動作環境  Ubuntu18.04 LTS, 20.04 LTS向け  ubuntuをインストールしたらやることリスト   update upgrade</description>
+    </item>
+    
     <item>
       <title>新しいロボットモデルを定義してMoveIt!を使う</title>
       <link>https://Takumi-Sakamoto.github.io/webpage/posts/gazebo/</link>
       <pubDate>Sun, 20 Feb 2022 00:37:10 +0900</pubDate>
       
       <guid>https://Takumi-Sakamoto.github.io/webpage/posts/gazebo/</guid>
-      
-        <description>リポジトリ https://github.com/Takumi-Sakamoto/cougarbot</description>
-      
+      <description>リポジトリ https://github.com/Takumi-Sakamoto/cougarbot</description>
     </item>
     
     <item>
@@ -24,11 +31,9 @@
       <pubDate>Mon, 14 Feb 2022 01:30:35 +0900</pubDate>
       
       <guid>https://Takumi-Sakamoto.github.io/webpage/posts/hugo/</guid>
-      
-        <description>経緯 仕事外で学んだことをまとめる場所が欲しくなりました。
+      <description>経緯 仕事外で学んだことをまとめる場所が欲しくなりました。
 qiitaに投稿しても良いのですが、もともと個人のwebサイトを学生時代に作成していたのでできればそちらに情報を積み上げていきたいと思っていました。webページを一新するにしました。
 github Pagesで管理したいかつMarkdown形式で書いていきたいと考えていたところ、静的サイトを自動で生成できるhugoを知り、これを採用することにしました。まだ十分機能を使いこなせてないですが、今のところ非常に使いやすく気に入っています。</description>
-      
     </item>
     
     <item>
@@ -37,9 +42,7 @@ github Pagesで管理したいかつMarkdown形式で書いていきたいと考
       <pubDate>Sat, 12 Feb 2022 03:34:09 +0900</pubDate>
       
       <guid>https://Takumi-Sakamoto.github.io/webpage/posts/wslros/</guid>
-      
-        <description>動作環境 Windows11とWindows10の違い Windows10でのGUI導入手順 RvizやGazeboが動かない!  動作環境  Windows10 WSL2 Ubuntu20.</description>
-      
+      <description>動作環境 Windows11とWindows10の違い Windows10でのGUI導入手順 RvizやGazeboが動かない!  動作環境  Windows10 WSL2 Ubuntu20.</description>
     </item>
     
     <item>
@@ -48,9 +51,7 @@ github Pagesで管理したいかつMarkdown形式で書いていきたいと考
       <pubDate>Sat, 12 Feb 2022 02:50:02 +0900</pubDate>
       
       <guid>https://Takumi-Sakamoto.github.io/webpage/profile/</guid>
-      
-        <description>経歴  2015.4 大阪大学基礎工学部システム科学科に入学 2018.4 原田研究室に配属 2019.3 大阪大学基礎工学部システム科学科を卒業 2019.4 大阪大学大学院基礎工学研究科システム創成専攻博士前期課程に入学 2021.</description>
-      
+      <description>経歴  2015.4 大阪大学基礎工学部システム科学科に入学 2018.4 原田研究室に配属 2019.3 大阪大学基礎工学部システム科学科を卒業 2019.4 大阪大学大学院基礎工学研究科システム創成専攻博士前期課程に入学 2021.</description>
     </item>
     
   </channel>
