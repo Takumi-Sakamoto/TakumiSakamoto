@@ -10,9 +10,8 @@ enableEmoji = true
 enableRobotsTXT = true
 
 [params]
-title = "Learning Stacks"
+title = "個人wiki"
 author = "Takumi Sakamoto"
-description = "Blogs about robotics and software"
 profilePicture = "images/biwako.jpg"
 
   [[menu.main]]
