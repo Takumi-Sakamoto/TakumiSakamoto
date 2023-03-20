@@ -15,18 +15,6 @@ author = "Takumi Sakamoto"
 profilePicture = "images/biwako.jpg"
 
   [[menu.main]]
-    name = "Home"
-    identifier = "home"
-    weight = 100
-    url = "/"
-
-  [[menu.main]]
-    name = "Posts"
-    weight = 200
-    identifier = "posts"
-    url = "/posts/"
-
-  [[menu.main]]
     name = "Profile"
     weight = 300
     identifier = "profile"
