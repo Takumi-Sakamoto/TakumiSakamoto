@@ -14,7 +14,8 @@
       
       <guid>https://Takumi-Sakamoto.github.io/webpage/posts/ubuntu_setup/</guid>
       
-        <description>動作環境  Ubuntu18.04 LTS, 20.04 LTS向け  ubuntuをインストールしたらやることリスト   update upgrade</description>
+        <description>動作環境 Ubuntu18.04 LTS, 20.04 LTS向け ubuntuをインストールしたらやることリスト update upgrade
+sudo apt update sudo apt upgrade proxy環境下の場合proxyを設定する ~/.</description>
       
     </item>
     
@@ -49,7 +50,7 @@ github Pagesで管理したいかつMarkdown形式で書いていきたいと考
       
       <guid>https://Takumi-Sakamoto.github.io/webpage/posts/wslros/</guid>
       
-        <description>動作環境 Windows11とWindows10の違い Windows10でのGUI導入手順 RvizやGazeboが動かない!  動作環境  Windows10 WSL2 Ubuntu20.</description>
+        <description>動作環境 Windows11とWindows10の違い Windows10でのGUI導入手順 RvizやGazeboが動かない! 動作環境 Windows10 WSL2 Ubuntu20.04 LTS Windows11とWindows10の違い Windows11ではWSLgが提供されており、手間なくGUI機能が使用できる。</description>
       
     </item>
     
